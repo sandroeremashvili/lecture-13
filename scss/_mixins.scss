@@ -1,0 +1,62 @@
+@mixin satauri {
+    color: #000;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+@mixin eich2 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 27px;
+}
+@mixin kardi {
+    background-color: #FFF;
+	width: 362px;
+	height: 357px;
+	border-radius: 5px 5px 5px 5px;
+	position: relative;
+}
+@mixin dolore {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 41px;
+	margin-top: 32px;
+}
+@mixin texti {
+    color: #8A8787;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 37px;
+	margin-top: 68px;
+    width: 238px;
+    height: 36px;
+}
+@mixin eich3 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+@mixin lis {
+    color: #818687;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

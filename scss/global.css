@@ -1,0 +1,237 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  height: 55px;
+  width: 100%;
+  background: #F1F1F1;
+  display: flex;
+  align-items: center;
+}
+header .heder {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  max-width: 1166px;
+  width: 100%;
+  margin: 0 auto;
+}
+header .heder h3 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+body {
+  background: #F1F1F1;
+}
+
+.container {
+  max-width: 1166px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 21px;
+  margin-bottom: 36px;
+}
+.container h2 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  line-height: normal;
+  margin-bottom: 27px;
+  font-weight: 700;
+}
+.container .potoebi {
+  display: flex;
+  justify-content: space-between;
+}
+.container .potoebi div {
+  background-color: #FFF;
+  width: 362px;
+  height: 357px;
+  border-radius: 5px 5px 5px 5px;
+  position: relative;
+}
+.container .potoebi div h4 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  margin-left: 41px;
+  margin-top: 32px;
+}
+.container .potoebi div p {
+  color: #8A8787;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 37px;
+  margin-top: 68px;
+  width: 238px;
+  height: 36px;
+}
+.container .potoebi div .clock {
+  display: inline-block;
+  margin-left: 40px;
+}
+.container .potoebi div .m {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0;
+  margin-top: 12px;
+}
+
+h1 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  line-height: normal;
+  margin-bottom: 27px;
+  font-weight: 800;
+  margin-top: 57px;
+  margin-bottom: 30px;
+}
+
+.vraperi {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1166px;
+  width: 100%;
+}
+.vraperi .wraperi {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 902px;
+}
+.vraperi .wraperi .wrapper {
+  position: relative;
+}
+.vraperi .wraperi .wrapper h3 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.vraperi .vraper {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  width: 362px;
+}
+
+footer {
+  max-width: 1520px;
+  width: 100%;
+  height: 201px;
+  background: #243043;
+}
+footer section {
+  max-width: 1166px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer section .futeri {
+  display: flex;
+  justify-content: space-between;
+  max-width: 711px;
+  width: 100%;
+  margin-top: 51px;
+}
+footer section .futeri li {
+  color: #818687;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 14px;
+}
+footer section .futeri p {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer section .futer {
+  margin-top: 51px;
+}/*# sourceMappingURL=global.css.map */
